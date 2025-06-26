@@ -1,15 +1,10 @@
-import { Component } from "react";
+const Filter = ({ onInput }) => {
+  return (
+    <>
+      <p>Filter</p>
+      <input type="text" onInput={(e) => onInput(e.currentTarget.value)} />
+    </>
+  );
+};
 
-export default class Filter extends Component {
-  render() {
-    return (
-      <>
-        <p>Filter</p>
-        <input
-          type="text"
-          onInput={(e) => this.props.onInput(e.currentTarget.value)}
-        />
-      </>
-    );
-  }
-}
+export default Filter;

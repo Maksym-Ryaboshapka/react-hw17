@@ -1,7 +1,7 @@
 {
-  "name": "react-hw10",
+  "name": "react-hw17",
   "version": "0.1.0",
-  "homepage": "https://maksym-ryaboshapka.github.io/react-hw12/",
+  "homepage": "https://maksym-ryaboshapka.github.io/react-hw17/",
   "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
